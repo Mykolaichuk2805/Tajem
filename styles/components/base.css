@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  line-height: 18px;
+  color: #413d4b;
+}
+
+.fonts-roboto-black {
+  font-family: "Roboto Black", arial;
+}
+
+.fonts-playfair {
+  font-family: "playfair_displayitalic";
+}
+
+.fonts-hammersmit {
+  font-family: "hammersmithoneregular";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "playfair_displayitalic";
+}
+
+.container {
+  max-width: 980px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+}
+
+a {
+  color: #ff1744;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*:not([class="img-non-100"])*/
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol * + figure {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-pyramid {
+  width: 235px;
+  height: 229px;
+}
+
+.picture-brand {
+  margin-bottom: 50px;
+  max-width: 160px;
+  max-height: 70px;
+}
+
+.picture-padd {
+  padding-left: 70px;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-2-text {
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer-2-text-2 {
+  margin-left: -140px;
+}
+
+.bottom-top {
+  margin-top: -15px;
+}
+
+.soc-messenger {
+  height: 15px;
+  width: 15px;
+}
+
+.hr-class {
+  width: 50px;
+  border: 1px solid #00e0d0;
+  border-bottom-width: 0;
+}
+
+.hr-class-pad {
+  margin-bottom: 45px;
+}
+
+.play-class {
+  width: 120px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 12px 40px;
+}
+
+.icons-class {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.input-type-pad {
+  padding-bottom: 25px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.class-flex-pad {
+  display: flex;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.class-stop-paddi {
+  padding: 0 15px 0 0;
+  margin: 0;
+}
+
+.class-stop-padd-mar {
+  padding: 0;
+  margin: 0;
+}
+
+.class-flex-special {
+  display: flex;
+}
+
+.kavychka {
+  font-size: 100px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.color-white-footer {
+  color: white;
+}
+
+.padding-describ {
+  padding-top: 25px;
+}
+
+.footer-pad-h {
+  padding-bottom: 25px;
+}
+/**/
+/*
+
+*/

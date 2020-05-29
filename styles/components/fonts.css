@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("../../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*мої шрифти*/
+@font-face {
+  font-family: "hammersmithoneregular";
+  src: url("../../fonts/hammersmithone-regular-webfont.woff2") format("woff2"),
+    url("../../fonts/hammersmithone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "playfair_displayitalic";
+  src: url("../../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2")
+      format("woff2"),
+    url("../../fonts/playfairdisplay-italic-variablefont_wght-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../../fonts/icomoon.eot?xsa5wv");
+  src: url("../../fonts/icomoon.eot?xsa5wv#iefix") format("embedded-opentype"),
+    url("../../fonts/icomoon.ttf?xsa5wv") format("truetype"),
+    url("../../fonts/icomoon.woff?xsa5wv") format("woff"),
+    url("../../fonts/icomoon.svg?xsa5wv#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google-plus-circle:before {
+  content: "\e900";
+}
+.icon-google-plus-official:before {
+  content: "\e900";
+}
+.icon-google:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
