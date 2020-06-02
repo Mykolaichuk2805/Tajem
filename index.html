@@ -102,8 +102,7 @@
               <div class="section-body">
                 <div class="section-content">
                   <figure class="">
-                    <!--<spam class="icon-play2 play-class"></spam>-->
-                    <img src="images/play.png" alt="play" class="play-class"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-play2 play-class height="90" viewBox="0 0 24 24" width="74"><path d="M0 0h24v24H0z" fill="none"/><path d="M8 5v14l11-7z"/></svg>
                   </figure>
                   <h2 class="fonts-roboto-black">WATCH OUR STORY</h2>
                   
@@ -256,9 +255,9 @@
                         <div class="column width-1-1">
                           <div class="row">
                             <div class="column width-1-4">
-                              <div class="card card-human">
+                              <div class="card">
                                 <figure class="card-white">
-                                  <img src="images/human.png" alt="human1" /> 
+                                  <img src="images/human.png" alt="human1" class="card-human" /> 
                                 </figure>
                                 <div class="card-body card-body-human">
                                   <h4 class="card-title class-stop-padd-mar">SEMF UCUK</h4>
@@ -268,9 +267,9 @@
                             </div>
         
                             <div class="column width-1-4">
-                              <div class="card card-human">
+                              <div class="card">
                                 <figure class="card-white">
-                                  <img src="images/human.png" alt="human1" /> 
+                                  <img src="images/human.png" alt="human1" class="card-human" /> 
                                 </figure>
                                 <div class="card-body card-body-human">
                                   <h4 class="card-title">DIK ADALIN</h4>
@@ -280,9 +279,9 @@
                             </div>
         
                             <div class="column width-1-4">
-                              <div class="card card-human">
+                              <div class="card">
                                 <figure class="card-white">
-                                  <img src="images/human.png" alt="human1" /> 
+                                  <img src="images/human.png" alt="human1" class="card-human" /> 
                                 </figure>
                                 <div class="card-body card-body-human">
                                   <h4 class="card-title">JENG KOL</h4>
@@ -292,9 +291,9 @@
                             </div>
 
                             <div class="column width-1-4">
-                                <div class="card card-human">
+                                <div class="card">
                                   <figure class="card-white">
-                                    <img src="images/human.png" alt="human1" /> 
+                                    <img src="images/human.png" alt="human1" class="card-human" /> 
                                   </figure>
                                   <div class="card-body card-body-human">
                                     <h4 class="card-title">PET ROMAK</h4>
@@ -441,7 +440,10 @@
                               <input type="text" name="text1" placeholder="Name"  class="form-class"/>
                               <input type="text" name="text2" placeholder="Email"  class="form-class"/>
                               <input type="text" name="text3" placeholder="Subject"  class="form-class"/>
-                              <input type="text" name="text4" placeholder="Your Massage"  class="form-class form-big"/>
+         
+                              <textarea name="text" id="text4" class="form-class form-big">
+                                Your Massage
+                              </textarea>
                             </form>
                           <button class="button button-primary">SUBMIT</button>
                       </div>
@@ -540,11 +542,11 @@
       
                           <div class="column width-1-3">
                               <h3 class="fonts-roboto-black footer-pad-h">STAY IN TOUCH</h3>
-                              <form class="input-type-pad">
-                                <input type="text" name="tex1" placeholder="Subscribe our newsletter" class="transparent"/>
+                              <form class="input-type-pad flex-classs">
+                                <input type="text" name="tex1" placeholder="Subscribe our newsletter" class="transparent form-norm"/>
                               
                                 <button class="button button-primary">
-                                  <figure>
+                                  <figure class="form-norm">
                                     <img src="images/paper122.png" alt="pic-button" />
                                   </figure>
                                 </button>
@@ -557,7 +559,6 @@
                                 <spam class="icon-instagram icons-class"></spam>
                                 <spam class="icon-google-plus-official icons-class"></spam>
                                 <spam class="icon-youtube icons-class"></spam>
-                                
                               </figure>
                           </div>
 

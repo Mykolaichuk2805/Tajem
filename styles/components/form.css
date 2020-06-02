@@ -96,3 +96,11 @@
 .form-big {
   height: 200px;
 }
+
+.form-norm {
+  margin-right: 10px;
+}
+
+.flex-classs {
+  display: flex;
+}
